@@ -11,16 +11,16 @@ const Footer = () => (
               <img src={logo} alt="CVC" className="w-10 h-10 object-contain" />
             </div>
             <div>
-              <span className="font-display text-sm font-bold text-primary-foreground leading-tight block">
+              <span className="font-display text-[13px] font-bold text-primary-foreground leading-tight block">
                 Comunidad de Vida Cristiana
               </span>
-              <span className="text-[8px] tracking-[1px] text-accent font-semibold uppercase mt-0.5 block">
+              <span className="text-[7px] tracking-[1px] text-accent font-semibold uppercase mt-1 block">
                 DOCTRINA · COMUNIÓN · AYUDA · ORACIÓN
               </span>
             </div>
           </div>
           <p className="text-sm leading-relaxed max-w-[280px]">
-            Una iglesia que enseña, acompaña y sirve con el amor de Cristo en Bogotá.
+            Una comunidad de familias que te acompañamos en el caminar cristiano.
           </p>
         </div>
 
@@ -47,8 +47,8 @@ const Footer = () => (
           <h5 className="text-[11px] tracking-[2px] text-accent font-semibold uppercase mb-5">Contacto</h5>
           <p className="text-sm leading-relaxed mb-2">Cra. 80a #10b-22</p>
           <p className="text-sm leading-relaxed mb-2">Bogotá, Colombia</p>
-          <p className="text-sm leading-relaxed mb-2">+57 (302) 594 7193</p>
-          <p className="text-sm leading-relaxed">info@cvcolombia.org</p>
+          <p className="text-sm leading-relaxed mb-2">+57 (315) 5567997</p>
+          <p className="text-sm leading-relaxed">info@icvc.com</p>
         </div>
       </div>
 

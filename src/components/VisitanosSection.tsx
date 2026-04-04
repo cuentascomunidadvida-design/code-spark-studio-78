@@ -9,7 +9,7 @@ const VisitanosSection = () => (
           Queremos conocerte
         </h2>
         <p className="text-base text-muted-foreground leading-relaxed max-w-xl mb-8">
-          Te esperamos con los brazos abiertos. No importa de dónde vengas — aquí hay un lugar para ti.
+          Si el Señor te trajo hasta este punto, queremos saber de ti, aquí nos puedes contactar:
         </p>
 
         <div className="space-y-7">
@@ -34,9 +34,9 @@ const VisitanosSection = () => (
           <div>
             <h4 className="text-[11px] tracking-[2px] text-accent font-semibold uppercase mb-2">Contacto</h4>
             <p className="text-[15px] text-foreground leading-relaxed">
-              info@cvcolombia.org
+              info@icvc.com
               <br />
-              +57 (302) 594 7193
+              +57 (315) 5567997
             </p>
           </div>
         </div>

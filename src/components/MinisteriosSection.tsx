@@ -1,10 +1,12 @@
+import { Baby, Flame, Heart, Music, Globe, Building } from "lucide-react";
+
 const ministerios = [
-  { icon: "👶", title: "Niños", desc: "Un espacio seguro y divertido donde los más pequeños descubren el amor de Dios a través de actividades y enseñanza creativa." },
-  { icon: "🔥", title: "Jóvenes", desc: "Una generación apasionada por Dios. Encuentros semanales, retiros y misiones que forjan carácter e identidad." },
-  { icon: "💑", title: "Parejas", desc: "Fortaleciendo matrimonios y familias con herramientas bíblicas y prácticas para una vida plena en comunidad." },
-  { icon: "🎵", title: "Alabanza", desc: "Un equipo de adoración comprometido con llevar la presencia de Dios en cada servicio con excelencia y corazón." },
-  { icon: "🌍", title: "Misiones", desc: "Alcanzando comunidades locales e internacionales con el evangelio. Participa en nuestras campañas misioneras." },
-  { icon: "📖", title: "Grupos de Vida", desc: "Pequeños grupos durante la semana para estudiar la Biblia, orar juntos y construir amistades que duran para siempre." },
+  { icon: Baby, title: "Niños", desc: "Un espacio seguro y divertido donde los más pequeños descubren el amor de Dios a través de actividades y enseñanza creativa." },
+  { icon: Flame, title: "Jóvenes", desc: "Una generación apasionada por Dios. Encuentros semanales, retiros y misiones que forjan carácter e identidad." },
+  { icon: Heart, title: "Parejas", desc: "Fortaleciendo matrimonios y familias con herramientas bíblicas y prácticas para una vida plena en comunidad." },
+  { icon: Music, title: "Alabanza", desc: "Un equipo de adoración comprometido con llevar la presencia de Dios en cada servicio con excelencia y corazón." },
+  { icon: Globe, title: "Misiones", desc: "Alcanzando comunidades locales e internacionales con el evangelio. Participa en nuestras campañas misioneras." },
+  { icon: Building, title: "Fundación", desc: "Sirviendo a la comunidad con programas de ayuda social, educación y acompañamiento integral a familias." },
 ];
 
 const MinisteriosSection = () => (
@@ -20,20 +22,22 @@ const MinisteriosSection = () => (
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {ministerios.map((m) => (
-          <div
-            key={m.title}
-            className="group rounded-2xl p-8 border border-border relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:border-accent/30"
-          >
-            {/* Bottom accent line */}
-            <div className="absolute bottom-0 left-0 right-0 h-[3px] origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
-              style={{ background: "var(--gradient-navy-sky)" }} />
-            
-            <span className="text-4xl block mb-5">{m.icon}</span>
-            <h3 className="font-display text-xl font-bold text-primary mb-2.5">{m.title}</h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">{m.desc}</p>
-          </div>
-        ))}
+        {ministerios.map((m) => {
+          const Icon = m.icon;
+          return (
+            <div
+              key={m.title}
+              className="group rounded-2xl p-8 border border-border relative overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:border-accent/30 text-center"
+            >
+              <div className="absolute bottom-0 left-0 right-0 h-[3px] origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+                style={{ background: "var(--gradient-navy-sky)" }} />
+              
+              <Icon className="w-10 h-10 text-accent mx-auto mb-5" strokeWidth={1.5} />
+              <h3 className="font-display text-xl font-bold text-primary mb-2.5">{m.title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{m.desc}</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   </section>
