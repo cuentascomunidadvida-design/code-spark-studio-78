@@ -34,9 +34,9 @@ const VisitanosSection = () => (
           <div>
             <h4 className="text-[11px] tracking-[2px] text-accent font-semibold uppercase mb-2">Contacto</h4>
             <p className="text-[15px] text-foreground leading-relaxed">
-              info@cvcolombia.org
+              info@icvc.com
               <br />
-              +57 (302) 594 7193
+              +57 (315) 5567997
             </p>
           </div>
         </div>
