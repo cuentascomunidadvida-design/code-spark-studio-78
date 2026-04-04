@@ -17,9 +17,10 @@ const PredicacionesSection = () => (
       >
         <iframe
           className="w-full h-full border-none block"
-          src="https://www.youtube.com/embed/videoseries?list=PLjSqHPR_aJR_plIqFiC_4A2i_0LJQg5gH"
-          title="Predicaciones CVC"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          src="https://www.youtube.com/embed/-YV2NFsCfH0?si=H3W5FT-vpuSqX5hz"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
           loading="lazy"
         />
