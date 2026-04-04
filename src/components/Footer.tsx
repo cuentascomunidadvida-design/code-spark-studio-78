@@ -20,7 +20,7 @@ const Footer = () => (
             </div>
           </div>
           <p className="text-sm leading-relaxed max-w-[280px]">
-            Una iglesia que enseña, acompaña y sirve con el amor de Cristo en Bogotá.
+            Una comunidad de familias que te acompañamos en el caminar cristiano.
           </p>
         </div>
 
