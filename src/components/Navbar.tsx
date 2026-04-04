@@ -21,10 +21,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 backdrop-blur-xl border-b transition-shadow duration-300 ${
+      className={`fixed top-0 w-full z-50 border-b transition-shadow duration-300 ${
         scrolled
-          ? "bg-card/97 shadow-lg border-border"
-          : "bg-card/95 border-transparent"
+          ? "bg-card shadow-lg border-border"
+          : "bg-card border-transparent"
       }`}
       style={{ height: 76 }}
     >
