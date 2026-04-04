@@ -34,10 +34,10 @@ const Navbar = () => {
             <img src={logo} alt="CVC Logo" className="w-10 h-10 object-contain" />
           </div>
           <div className="hidden sm:flex flex-col">
-            <span className="font-display text-sm font-bold text-primary leading-tight tracking-tight">
+            <span className="font-display text-[13px] font-bold text-primary leading-tight tracking-tight">
               Comunidad de Vida Cristiana
             </span>
-            <span className="text-[8px] tracking-[1.2px] text-accent font-semibold uppercase mt-0.5">
+            <span className="text-[7px] tracking-[1px] text-accent font-semibold uppercase mt-0.5">
               DOCTRINA · COMUNIÓN · AYUDA · ORACIÓN
             </span>
           </div>

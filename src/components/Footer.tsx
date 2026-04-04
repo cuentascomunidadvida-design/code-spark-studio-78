@@ -11,10 +11,10 @@ const Footer = () => (
               <img src={logo} alt="CVC" className="w-10 h-10 object-contain" />
             </div>
             <div>
-              <span className="font-display text-sm font-bold text-primary-foreground leading-tight block">
+              <span className="font-display text-[13px] font-bold text-primary-foreground leading-tight block">
                 Comunidad de Vida Cristiana
               </span>
-              <span className="text-[8px] tracking-[1px] text-accent font-semibold uppercase mt-0.5 block">
+              <span className="text-[7px] tracking-[1px] text-accent font-semibold uppercase mt-1 block">
                 DOCTRINA · COMUNIÓN · AYUDA · ORACIÓN
               </span>
             </div>
