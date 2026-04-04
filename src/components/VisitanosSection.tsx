@@ -9,7 +9,7 @@ const VisitanosSection = () => (
           Queremos conocerte
         </h2>
         <p className="text-base text-muted-foreground leading-relaxed max-w-xl mb-8">
-          Te esperamos con los brazos abiertos. No importa de dónde vengas — aquí hay un lugar para ti.
+          Si el Señor te trajo hasta este punto, queremos saber de ti, aquí nos puedes contactar:
         </p>
 
         <div className="space-y-7">
