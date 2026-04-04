@@ -47,8 +47,8 @@ const Footer = () => (
           <h5 className="text-[11px] tracking-[2px] text-accent font-semibold uppercase mb-5">Contacto</h5>
           <p className="text-sm leading-relaxed mb-2">Cra. 80a #10b-22</p>
           <p className="text-sm leading-relaxed mb-2">Bogotá, Colombia</p>
-          <p className="text-sm leading-relaxed mb-2">+57 (302) 594 7193</p>
-          <p className="text-sm leading-relaxed">info@cvcolombia.org</p>
+          <p className="text-sm leading-relaxed mb-2">+57 (315) 5567997</p>
+          <p className="text-sm leading-relaxed">info@icvc.com</p>
         </div>
       </div>
 
