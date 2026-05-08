@@ -1,13 +1,31 @@
 import logo from "@/assets/logo.png";
+import celebracion from "@/assets/celebracion.jpg";
 
 const HeroSection = () => (
   <section id="inicio" className="relative min-h-screen flex items-center overflow-hidden pt-28">
     {/* Background */}
     <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
-    
+
+    {/* Right side photo (50% width on desktop) */}
+    <div className="absolute inset-y-0 right-0 w-1/2 hidden lg:block">
+      <img
+        src={celebracion}
+        alt="Comunidad CVC celebrando juntos"
+        className="w-full h-full object-cover"
+      />
+      {/* Fade from left (navy) into image for seamless blend */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(to right, hsl(var(--primary)) 0%, hsla(224,60%,15%,0.6) 25%, transparent 60%)",
+        }}
+      />
+    </div>
+
     {/* Grid pattern */}
     <div
-      className="absolute inset-0 animate-grid-drift opacity-40"
+      className="absolute inset-0 animate-grid-drift opacity-40 lg:w-1/2"
       style={{
         backgroundImage:
           "linear-gradient(hsla(197,78%,53%,0.07) 1px,transparent 1px), linear-gradient(90deg,hsla(197,78%,53%,0.07) 1px,transparent 1px)",
@@ -16,19 +34,19 @@ const HeroSection = () => (
     />
 
     {/* Glows */}
-    <div className="absolute top-[15%] right-[8%] w-[520px] h-[520px] rounded-full animate-pulse-glow"
+    <div className="absolute top-[15%] left-[8%] w-[520px] h-[520px] rounded-full animate-pulse-glow pointer-events-none"
       style={{ background: "radial-gradient(circle, hsla(197,78%,53%,0.18) 0%, transparent 70%)" }} />
-    <div className="absolute bottom-[8%] left-[4%] w-80 h-80 rounded-full animate-pulse-glow-slow"
+    <div className="absolute bottom-[8%] left-[4%] w-80 h-80 rounded-full animate-pulse-glow-slow pointer-events-none"
       style={{ background: "radial-gradient(circle, hsla(224,60%,26%,0.35) 0%, transparent 70%)" }} />
 
     {/* Content */}
-    <div className="relative z-10 px-6 lg:px-20 max-w-[920px] animate-fade-up">
+    <div className="relative z-10 px-6 lg:px-20 max-w-[920px] lg:max-w-[50%] animate-fade-up">
       <div className="w-28 h-28 rounded-full bg-card border-[3px] border-accent/40 flex items-center justify-center overflow-hidden mb-6"
         style={{ boxShadow: "var(--shadow-glow)" }}>
         <img src={logo} alt="CVC" className="w-24 h-24 object-contain" />
       </div>
 
-      <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl font-black text-primary-foreground leading-[1.08] tracking-tight mb-6">
+      <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-black text-primary-foreground leading-[1.08] tracking-tight mb-6">
         Iglesia{" "}
         <em className="not-italic text-sky-light">
           Comunidad
