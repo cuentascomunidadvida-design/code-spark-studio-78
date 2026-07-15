@@ -1,6 +1,6 @@
 import { Youtube, Play } from "lucide-react";
 
-const VIDEO_ID = "-YV2NFsCfH0";
+const VIDEO_ID = "-sI2Sjy-Lhc";
 const CHANNEL_URL = "https://www.youtube.com/@comunidadvidacristiana8534";
 const WATCH_URL = `https://www.youtube.com/watch?v=${VIDEO_ID}`;
 
