@@ -54,12 +54,6 @@ const Navbar = () => {
               {item.label}
             </a>
           ))}
-          <a
-            href="#ofrenda"
-            className="ml-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-lg text-sm font-semibold no-underline hover:bg-navy-mid transition-colors"
-          >
-            Ofrendar
-          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -91,13 +85,6 @@ const Navbar = () => {
               {item.label}
             </a>
           ))}
-          <a
-            href="#ofrenda"
-            onClick={() => setMobileOpen(false)}
-            className="block bg-primary text-primary-foreground text-center px-5 py-2.5 rounded-lg text-sm font-semibold no-underline mt-3"
-          >
-            Ofrendar
-          </a>
         </div>
       )}
     </nav>
