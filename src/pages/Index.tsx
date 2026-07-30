@@ -22,8 +22,8 @@ const Index = () => (
     <PastorSection />
     <MinisteriosSection />
     <PredicacionesSection />
-    <VisitanosSection />
     <OfrendaSection />
+    <VisitanosSection />
     <Footer />
   </>
 );
