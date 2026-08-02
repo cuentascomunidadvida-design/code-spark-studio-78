@@ -17,7 +17,7 @@ const OfrendaSection = () => {
 
         <div className="max-w-[180px] mx-auto my-5">
           <img
-            src={qrOfrendas}
+            src={qrOfrendas.url}
             alt="Código QR para ofrendas - Bre-B Bancolombia"
             className="w-full h-auto block rounded-lg"
           />
