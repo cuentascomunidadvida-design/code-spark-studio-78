@@ -1,4 +1,4 @@
-import qrOfrendas from "@/assets/qr-ofrendas.jpg";
+import qrOfrendas from "@/assets/qr-ofrendas.jpg.asset.json";
 
 const OfrendaSection = () => {
   return (
@@ -26,7 +26,7 @@ const OfrendaSection = () => {
         <p className="text-[11px] tracking-[2px] text-primary-foreground/70 font-semibold uppercase mb-1">
           Llave Bre-B
         </p>
-        <p className="font-display text-lg font-bold text-primary tracking-wider mb-5">
+        <p className="font-display text-lg font-bold text-primary-foreground tracking-wider mb-5">
           0065534737
         </p>
 
