@@ -1,4 +1,3 @@
-import qrOfrendas from "@/assets/qr-ofrendas.jpg.asset.json";
 
 const OfrendaSection = () => {
   return (
@@ -17,7 +16,7 @@ const OfrendaSection = () => {
 
         <div className="max-w-[180px] mx-auto my-5">
           <img
-            src={qrOfrendas.url}
+            src="/QR IGLESIA BANCOLOMBIA.jpeg"
             alt="Código QR para ofrendas - Bre-B Bancolombia"
             className="w-full h-auto block rounded-lg"
           />
